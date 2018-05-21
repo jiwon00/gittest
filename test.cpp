@@ -1,7 +1,9 @@
-#include <stdio.h>
+#include <iosteam>
+
+using namespace std;
 
 int main(void)
 {
-	printf("Hello world!\n");
+	cout << "Hello world!" << endl;
 	return 0;
 }
