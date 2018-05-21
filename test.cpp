@@ -1,8 +1,10 @@
-#include <stdio.h>
+#include <iosteam>
+
+using namespace std;
 
 int main(void)
 {
-	printf("Hello world!\n");
-	printf("More\n");
+	cout << "Hello world!" << endl;
+	cout << "More" << endl;
 	return 0;
 }
